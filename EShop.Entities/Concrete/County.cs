@@ -8,15 +8,13 @@ using System.Threading.Tasks;
 
 namespace EShop.Entities.Concrete
 {
-    class County:IEntity
+   public class County:IEntity
     {
         public int ID { get; set; }
         public string CityName { get; set; }
 
         public City City { get; set; }
 
-        [ForeignKey("ID")]
-        public int CityID { get; set; }
 
 
     }

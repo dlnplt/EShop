@@ -20,13 +20,7 @@ namespace EShop.Entities.Concrete
         public bool IsActive { get; set; }
 
         public Category Category { get; set; }
-        [ForeignKey("ID")]
-        public int MarkaID { get; set; }
-
-        public Brand Brand { get; set; }
-        [ForeignKey("ID")]
-        public int BrandID { get; set; }
-
+        
 
         public IEnumerable<Resim> Images { get; set; }
     }

@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="Abstract\IEntity.cs" />
     <Compile Include="Concrete\Account\Category.cs" />
-    <Compile Include="Concrete\Account\ForeingnKeyAttribute.cs" />
     <Compile Include="Concrete\Account\Role.cs" />
     <Compile Include="Concrete\Account\User.cs" />
     <Compile Include="Concrete\AddressDetail.cs" />

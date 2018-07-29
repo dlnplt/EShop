@@ -17,12 +17,8 @@ namespace EShop.Entities.Concrete
         public string Email { get; set; }
 
         public User User { get; set; }
-        [ForeingnKey("ID")]
-        public int UserID { get; set; }
-
+       
         public AddressDetail AddresDetail { get; set; }
-        [ForeingnKey("ID")]
-        public int AdressID { get; set; }
-
+       
     }
 }

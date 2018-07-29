@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EShop.Entities.Concrete
 {
-    class City:IEntity
+   public class City:IEntity
     { 
         public int ID { get; set; }
         public string CityName { get; set; }

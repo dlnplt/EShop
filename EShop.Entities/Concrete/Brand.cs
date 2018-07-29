@@ -17,7 +17,6 @@ namespace EShop.Entities.Concrete
 
         public Resim Resim { get; set; }
 
-        [ForeignKey("ID")]
-        public int ImageID { get; set; }
+        
     }
 }

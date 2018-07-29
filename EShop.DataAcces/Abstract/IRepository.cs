@@ -8,8 +8,10 @@ using System.Threading.Tasks;
 
 namespace EShop.DataAcces.Abstract
 {
-  public interface IRepository<TEntity> where TEntity:IEntity,new()
-    { 
+  public interface IRepository<TEntity> where TEntity:IEntity
+    {
+        List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null);
+        TEntity Get(Expression<Func<TEntity, bool>> filter);
 
         void Add(TEntity entity);
         void Update(TEntity entity);

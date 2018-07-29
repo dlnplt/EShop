@@ -14,8 +14,7 @@ namespace EShop.Entities.Concrete
         public string AddresDetail { get; set; }
 
         public County County { get; set; }  //Bir ilçeye baglı bir il oldg için ilçeyi çagırdık.
-        [ForeignKey("ID")]
-        public int CountyID { get; set; }
+        
 
 
     }
